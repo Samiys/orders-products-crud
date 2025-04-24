@@ -1,0 +1,78 @@
+{
+  "orders": [
+    {
+      "id": "1",
+      "customerCompanyId": "101",
+      "supplierCompanyId": "201",
+      "productIds": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": "7e09",
+      "customerCompanyId": "101",
+      "supplierCompanyId": "201",
+      "productIds": [
+        "1"
+      ],
+      "status": "pending",
+      "updatedAt": "2025-04-23T21:06:13.775Z",
+      "createdAt": "2025-04-23T21:06:13.776Z"
+    },
+    {
+      "id": "0ce3",
+      "customerCompanyId": "101",
+      "supplierCompanyId": "201",
+      "productIds": [
+        "3",
+        "2"
+      ],
+      "status": "pending",
+      "updatedAt": "2025-04-24T21:21:45.375Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Green Widget",
+      "description": "Eco-friendly widget for sustainable tasks.",
+      "price": 12.99,
+      "updatedAt": "2025-04-23T22:42:27.206Z"
+    },
+    {
+      "id": "2",
+      "name": "Solar Panel Kit",
+      "description": "Compact solar panel set for small-scale energy needs.",
+      "price": 199.99
+    },
+    {
+      "id": "3",
+      "name": "Recycled Notebook",
+      "description": "Notebook made from 100% recycled paper.",
+      "price": 3.5
+    }
+  ],
+  "companies": [
+    {
+      "id": "101",
+      "name": "EcoBuyer Inc.",
+      "type": "customer"
+    },
+    {
+      "id": "102",
+      "name": "GreenMart",
+      "type": "customer"
+    },
+    {
+      "id": "201",
+      "name": "SolarSuppliers Ltd.",
+      "type": "supplier"
+    },
+    {
+      "id": "202",
+      "name": "PaperCycle Co.",
+      "type": "supplier"
+    }
+  ]
+}
