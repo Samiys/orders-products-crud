@@ -3,7 +3,8 @@
 	"version": "0.1.0",
 	"private": true,
 	"scripts": {
-		"serve": "json-server --watch db.json --port 3000 & vue-cli-service serve",
+		"backend": "json-server --watch db.json --port 3000",
+		"serve": "vue-cli-service serve",
 		"build": "vue-cli-service build",
 		"start": "npm run serve",
 		"test:unit": "vitest"
