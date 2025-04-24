@@ -43,7 +43,7 @@ GET /companies
 
 ```bash
 npm install
-npm run serve
+npm run start
 ```
 
 ## 🧪 Tests

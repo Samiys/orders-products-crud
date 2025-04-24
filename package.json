@@ -6,7 +6,7 @@
 		"backend": "json-server --watch db.json --port 3000",
 		"serve": "vue-cli-service serve",
 		"build": "vue-cli-service build",
-		"start": "npm run serve",
+		"start": "json-server --watch db.json --port 3000 & npm run serve",
 		"test:unit": "vitest"
 	},
 	"dependencies": {
