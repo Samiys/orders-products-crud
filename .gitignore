@@ -1,0 +1,11 @@
+/node_modules
+
+.env
+.env.backup
+.env.production
+
+.DS_Store
+node_modules
+/dist
+
+.idea
